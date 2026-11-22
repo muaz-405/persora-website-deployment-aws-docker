@@ -1,0 +1,9 @@
+# Client website source is not published
+website/*
+!website/README.md
+
+# Never commit certificates or private keys
+part2-docker-nginx-rhel9/ssl/
+*.key
+*.pem
+*.crt
